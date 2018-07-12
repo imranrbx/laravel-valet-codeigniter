@@ -1,4 +1,4 @@
-# A Laravel Valet driver for CodeIgniter
+# A Laravel Valet driver for CodeIgniter 4
 
 Import the CodeIgniterValetDriver.php file into your ~/.valet/Drivers and you'll be ready to go, or just copy and paste this command in your terminal.
 
