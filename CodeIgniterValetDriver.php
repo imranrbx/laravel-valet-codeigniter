@@ -12,7 +12,7 @@ class CodeIgniterValetDriver extends ValetDriver
      */
     public function serves($sitePath, $siteName, $uri)
     {
-        return count(glob($sitePath.'/*/system/core/CodeIgniter.php')) == 1;
+        return count(glob($sitePath.'/system/CodeIgniter.php')) == 1;
     }
 
     /**
@@ -42,6 +42,6 @@ class CodeIgniterValetDriver extends ValetDriver
      */
     public function frontControllerPath($sitePath, $siteName, $uri)
     {
-        return $sitePath.'/index.php';
+        return $sitePath.'/public/index.php';
     }
 }
